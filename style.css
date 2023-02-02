@@ -65,7 +65,7 @@ section p {
 }
 
 div.slides {
-  height: 475px;
+  height: 450px;
   width: 375px;
   position: relative;
   cursor: pointer;
@@ -77,6 +77,7 @@ div.slides img {
   left: 0;
   transition: transform 0.5s, box-shadow 0.5s;
   pointer-events: none;
+  object-fit: contain;
 }
 
 div.slides img:first-child {
